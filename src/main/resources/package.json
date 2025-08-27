@@ -1,0 +1,36 @@
+
+{
+  "FORMAL": {
+    "hi": "Hello. How may I assist you today?",
+    "hello": "Hello. How may I assist you today?",
+    "how are you": "I am functioning properly. How may I assist you?",
+    "i need help": "I can assist with that. Please provide more details.",
+    "can you help me with my account": "Certainly. Please describe the account issue.",
+    "thanks": "You are welcome.",
+    "bye": "Goodbye.",
+    "what is your name": "I am your virtual assistant.",
+    "any other text": "Could you clarify your request?"
+  },
+  "FRIENDLY": {
+    "hi": "Hey there! 😊 How can I help?",
+    "hello": "Hi! 👋 What’s up?",
+    "how are you": "Doing great! 😄 How can I help?",
+    "i need help": "I’ve got you! 🙂 Tell me a bit more.",
+    "can you help me with my account": "Sure thing! 😊 What’s wrong with the account?",
+    "thanks": "Anytime! 🙌",
+    "bye": "See you later! 👋",
+    "what is your name": "I’m your helper bot 🤖",
+    "any other text": "Could you tell me more?"
+  },
+  "CONCISE": {
+    "hi": "Hello. How can I help?",
+    "hello": "Hello. How can I help?",
+    "how are you": "I’m good. How can I help?",
+    "i need help": "Share details; I’ll help.",
+    "can you help me with my account": "Describe the account issue…",
+    "thanks": "You’re welcome.",
+    "bye": "Goodbye.",
+    "what is your name": "I’m your assistant.",
+    "any other text": "Please clarify."
+  }
+}
