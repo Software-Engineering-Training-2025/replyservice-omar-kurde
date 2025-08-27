@@ -21,8 +21,6 @@ public class SentenceRepo {
         sentences.get(type).put(key,value);
     }
     public String GetSentence(String key,ReplyType type) {
-        System.out.println(type);
-        System.out.println(sentences);
         return sentences.get(type).getOrDefault(key  , NoSentence.get(type));
     }
     public void RemoveSentence(String key,ReplyType type) {
@@ -37,7 +35,6 @@ public class SentenceRepo {
     }
     public void AddType (ReplyType type) {
         sentences.put(type,new ConcurrentHashMap<>());
-        System.out.println(type+  " "+sentences);
 
     }
 }

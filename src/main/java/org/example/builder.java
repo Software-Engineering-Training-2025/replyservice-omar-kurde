@@ -30,7 +30,6 @@ public class builder {
         catch (Exception e) {
             //
         }
-        System.out.println(map);
         for (ReplyType type : ReplyType.values()) {
             service.AddType(type);
         }
@@ -45,7 +44,6 @@ public class builder {
                     service.AddDefault(type, value);
                     continue;
                 }
-                System.out.println(key+" "+value+" "+type);
                 service.AddSentence(key,value,type);
 
             }
